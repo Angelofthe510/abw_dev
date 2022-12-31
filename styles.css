@@ -1,0 +1,276 @@
+/* Place your CSS styles in this file */
+/* This is the original CSS file
+h1 {
+    text-align: center; 
+    font-family: "Source Sans Pro", sans-serif; 
+    font-weight: normal;
+} */
+
+/* This is stuff ive added specifically for Kathryn's website */
+
+/*This is the "Main Title" style for the Main Page and is as customizable as CSS will allow. */
+
+/* Header - 'MainNavMenu' and 'SecondNavMenu' [an alt version] are below. */
+/* Secondary Page attributes below that */
+/* Site wide attributes below that */
+
+#MyHeader {/*
+  background-color: rgb(224, 236, 249);*/
+  border-bottom: #616161 2px solid;
+  margin: 0px 0px 6px 0px;
+}
+
+.MainTitle {
+	margin-top: -8px;
+  margin-bottom: -4px;
+	text-align: center;
+	font-size:500%;
+  color: #bd8d52;
+	letter-spacing: -1px;
+  text-shadow: 1px 1px 9px #8b8b8b;
+}
+
+/* This is for the Hero Image & Text on the main page */
+
+.headlineImg {
+  vertical-align: text-top;
+  border: 2px white;
+  border-radius: 18px;
+  width: 300px;
+  box-shadow: 0px 0px 6px 3px #cbcbcb;
+  margin-top: 21px;
+  margin-right: 6px;
+	}
+
+.headlineCopy {
+  vertical-align: text-top;
+  padding-left: 6px;
+}
+
+/* I made this one for the Main Nav Bar for this site */
+
+.MainNavMenu {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 12.5%;
+    margin-right: 12.5%;
+  	width: 100%;
+  	border: 3px #e6e3e3;
+  	padding: 6px;
+    border-radius: 3px;
+    text-align: center;
+}
+.MainNavMenu,table {
+    vertical-align: middle;
+    margin-bottom: 12px;
+} 
+.MainNavMenu,th,td {
+    height: 48px;
+  
+}
+
+/* this is an alt version to be used on the secondary pages */
+
+.SecondNavMenu {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 12.5%;
+    margin-right: 12.5%;
+  	width: 100%;
+  	border: 3px #e6e3e3;
+  	padding: 6px;
+    border-radius: 3px;
+    text-align: center;
+} /*
+.SecondNavMenu,table {
+    vertical-align: middle;
+    margin-bottom: 12px;
+} 
+.SecondNavMenu,th,td {
+    height: 48px;
+  
+} */
+
+/* these are common attributes to both ManNavMenu and SecondNavMenu */
+
+th:hover {
+  font-family: 'Arial' sans-serif;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0px 0px 4px #616161;
+  background-color: yellow;
+  padding:0px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 4px 2px #e6e3e3;
+}
+
+/* for the Secondary Pages */
+
+.aboutImg {
+  vertical-align: text-top;
+  border: 2px white;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0px 0px 6px 3px #cbcbcb;
+/*margin-top: 21px;*/
+  margin-right: 6px;
+	}
+
+.aboutCopy {
+  vertical-align: text-top;
+  padding-left: 6px;
+}
+
+/* from my work */
+
+a:hover {background-color: lightgrey; padding: 3px;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+hr { color: grey;}
+h1, h2, h3, h4, h5, h6, p {
+    /* <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> */
+    /*font-family: "<Fira Sans Condensed", sans-serif; font-weight: "300" >;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: "swap";
+}
+.headline {
+	border: 12px solid white;
+	 }
+.Tri-col {
+    column-span: 20%;
+    /* col span="1" style="width: 20%;
+    col span="1" style="width: 50%;
+    col span="1" style="width: 30%; */
+}
+.th1 {
+	width:100%;
+    }    
+.center {
+    text-align:center;
+    }
+
+    /* this is the Reviews page styles */
+
+.quote {
+    font-size: medium;
+    padding: 12px;
+}
+.quoter {
+    font-size: larger;
+    text-align: right;
+    font-style: italic;
+    color: #bd8d52;
+    text-shadow: 0px 0px 3px #bdbaba;
+}
+
+#rcorners1 {
+  border-radius: 18px;
+  background-color: rgb(240, 227, 199);
+  padding: 20px;
+  width: 60%;
+  box-shadow: #8b8b8b 0px 0px 9px 2px;
+}
+
+
+
+/* Basic stuff I used to create the Nav Bar from W3Schools
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+ */
+
+/* basic styles for this 
+.center {
+	text-align: center;
+}
+
+.MainNavMenu {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-left: 12.5%;
+    margin-right: 12.5%;
+  	width: 65%;
+  	border: 3px #e6e3e3;
+  	padding: 6px;
+    border-radius: 3px;
+    text-align: center;
+}
+.MainNavMenu,table,th,td {
+    height: 48px;
+    vertical-align: middle;
+} 
+th:hover, td:hover {
+    font-family: 'Arial' sans-serif;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 0px 4px #616161;
+	background-color: yellow;
+    padding:0px;
+    border-radius: 4px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px 3px #e6e3e3;
+}
+
+*/
+
+
+    /* This is copied from the about.html page:
+
+
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+a:hover {background-color: lightgrey;}
+table, th, td {
+	  border: 6px solid white;
+	  align: top;
+	}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+.headline {
+	border: 12px solid white;
+	 }
+.headlineImg {
+	 width: 100%;
+	 }
+.th1 {
+	width:100%;
+    }
+    
+.center {
+    text-align:center;
+    }
+
+
+    */
