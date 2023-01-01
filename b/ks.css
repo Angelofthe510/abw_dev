@@ -1,0 +1,18 @@
+/* Kathryn Seabron custom CSS */
+
+
+.lastLine {
+    font-weight: 800;
+    text-shadow: 0 0 3px #000;
+    color: #FFF;
+}
+
+b {
+    top: 20px;
+}
+
+.headerKS {
+    text-align: center;
+    font-family: 'Montez', sans-serif;
+    padding: 20px;
+}
