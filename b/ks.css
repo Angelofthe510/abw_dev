@@ -181,6 +181,11 @@ h5 {
     margin: 0 -.1rem;
 }
 
+.next {
+    text-align: right;
+    text-decoration: none;
+}
+
 /*
 .lastLine {
     font-weight: 800;
